@@ -1,0 +1,30 @@
+/*
+ * animations css stylesheet
+ */
+
+/* animate ngRepeat in img listing */
+.img-wrap {
+  background-color: white;
+  width: 450px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+...
+
+img.image-listing {
+  float: left;
+  margin-right: 3em;
+  margin-bottom: 2em;
+  background-color: white;
+  padding: 2em;
+  height: 400px;
+  width: 400px;
+  display: none;
+}
+
+img.image-listing:first-child {
+  display: block;
+  }
