@@ -3,7 +3,7 @@ var imgAnimations = angular.module('imgAnimations', ['ngAnimate']);
 imgAnimations.animation('.image-listing', function() {
 'use strict';
   var animateUp = function(element, className, done) {
-    if(className != 'image-listing') {
+    if(className != 'active') {
       return;
     }
     element.css({
@@ -25,7 +25,7 @@ imgAnimations.animation('.image-listing', function() {
   };
 
   var animateDown = function(element, className, done) {
-    if(className != 'image-listing') {
+    if(className != 'active') {
       return;
     }
     element.css({
